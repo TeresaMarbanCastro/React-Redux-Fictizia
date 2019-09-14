@@ -5,19 +5,19 @@ class Counter extends React.Component {
         count: 0
     }
 
-    increase ()  {
+    increase = ()  => {
         this.setState({ count: this.state.count + 1})
     }
         
-    decrease () {
+    decrease = () => {
         this.setState({ count: this.state.count - 1})
     }
     render() {
         return (
             <>
             <div>{this.state.count}</div>
-            <button onClick={() => this.increase()}>+</button>
-            <button onClick={() =>this.decrease()}>-</button>
+            <button onClick={this.increase}>+</button>
+            <button onClick={this.decrease}>-</button>
             </>
         )
     } 

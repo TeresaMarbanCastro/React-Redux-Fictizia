@@ -10,8 +10,9 @@ import './App.css';
 import ListItem from './ListItem';
 import Link from './Link';
 import Loading from './Loading';
-import Parent from './Parent.js';
+import Parent from './Parent';
 import Counter from './Counter';
+import String from './String';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       </Loading>
       <Parent />
       <Counter />
+      <String />
     </div>
   );
 }
