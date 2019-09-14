@@ -13,6 +13,7 @@ import Loading from './Loading';
 import Parent from './Parent';
 import Counter from './Counter';
 import String from './String';
+import CounterTwo from './CounterTwo';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
       <Parent />
       <Counter />
       <String />
+      <CounterTwo />
     </div>
   );
 }
