@@ -11,6 +11,7 @@ import ListItem from './ListItem';
 import Link from './Link';
 import Loading from './Loading';
 import Parent from './Parent.js';
+import Counter from './Counter';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Link href="https://reactjs.org/" openInNewTab>React Docs</Link>
       </Loading>
       <Parent />
+      <Counter />
     </div>
   );
 }
