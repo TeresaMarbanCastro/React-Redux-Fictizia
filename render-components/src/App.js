@@ -1,23 +1,27 @@
 import React from 'react';
-import Greeting from './Greeting.js';
-import ShowName from './ShowName';
-import ShowDate from './ShowDate';
-import ShowMessage from './ShowMessage';
-import Title from './Title';
-import Text from './Text';
-import List from './List';
+import Greeting from './components1/Greeting.js';
+import ShowName from './components1/ShowName';
+import ShowDate from './components1/ShowDate';
+import ShowMessage from './components1/ShowMessage';
+import Title from './components1/Title';
+import Text from './components1/Text';
+import List from './components1/List';
 import './App.css';
-import ListItem from './ListItem';
-import Link from './Link';
-import Loading from './Loading';
-import Parent from './Parent';
-import Counter from './Counter';
-import String from './String';
-import CounterTwo from './CounterTwo';
+import ListItem from './components1/ListItem';
+import Link from './components1/Link';
+import Loading from './components1/Loading';
+import Parent from './components1/Parent';
+import Counter from './components1/Counter';
+import String from './components1/String';
+import CounterTwo from './components1/CounterTwo';
+
+import Users from './components2/Users';
+import UsersContainer from './components2/UsersContainer.js';
 
 function App() {
   return (
     <div className="App">
+      {/* Clase 14 Septiembre
       <Greeting />
       <ShowName />
       <ShowDate />
@@ -38,7 +42,9 @@ function App() {
       <Parent />
       <Counter />
       <String />
-      <CounterTwo />
+      <CounterTwo /> */}
+
+      <UsersContainer />
     </div>
   );
 }
