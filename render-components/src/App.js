@@ -16,8 +16,11 @@ import String from './components1/String';
 import CounterTwo from './components1/CounterTwo';
 
 import Users from './components2/Users';
-import UsersContainer from './components2/UsersContainer.js';
-import Tasks from './components2/Tasks.js';
+import UsersContainer from './components2/UsersContainer';
+import Tasks from './components2/Tasks';
+import Data from './components2/Data';
+import Input from './components2/Input';
+import Select from './components2/Select';
 
 function App() {
   return (
@@ -46,7 +49,11 @@ function App() {
       <CounterTwo /> */}
 
       <UsersContainer />
-      <Tasks />
+      {/* <Tasks /> */}
+      <Data />
+      <Input />
+      <Select />
+
     </div>
   );
 }
