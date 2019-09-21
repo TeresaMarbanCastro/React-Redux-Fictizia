@@ -17,6 +17,7 @@ import CounterTwo from './components1/CounterTwo';
 
 import Users from './components2/Users';
 import UsersContainer from './components2/UsersContainer.js';
+import Tasks from './components2/Tasks.js';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
       <CounterTwo /> */}
 
       <UsersContainer />
+      <Tasks />
     </div>
   );
 }
