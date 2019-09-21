@@ -20,7 +20,6 @@ class Input extends React.Component {
                 <option value="first">First</option>
                 <option value="second">Second</option>
             </select>
-
             <p>{this.state.value}</p>
             </>
         )

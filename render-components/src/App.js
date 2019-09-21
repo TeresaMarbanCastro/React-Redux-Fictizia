@@ -21,6 +21,7 @@ import Tasks from './components2/Tasks';
 import Data from './components2/Data';
 import Input from './components2/Input';
 import Select from './components2/Select';
+import Page from './components2/Page';
 
 function App() {
   return (
@@ -53,6 +54,8 @@ function App() {
       <Data />
       <Input />
       <Select />
+
+      <Page />
 
     </div>
   );
