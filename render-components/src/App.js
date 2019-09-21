@@ -1,27 +1,28 @@
 import React from 'react';
-import Greeting from './components1/Greeting.js';
-import ShowName from './components1/ShowName';
-import ShowDate from './components1/ShowDate';
-import ShowMessage from './components1/ShowMessage';
-import Title from './components1/Title';
-import Text from './components1/Text';
-import List from './components1/List';
+// import Greeting from './components1/Greeting.js';
+// import ShowName from './components1/ShowName';
+// import ShowDate from './components1/ShowDate';
+// import ShowMessage from './components1/ShowMessage';
+// import Title from './components1/Title';
+// import Text from './components1/Text';
+// import List from './components1/List';
 import './App.css';
-import ListItem from './components1/ListItem';
-import Link from './components1/Link';
-import Loading from './components1/Loading';
-import Parent from './components1/Parent';
-import Counter from './components1/Counter';
-import String from './components1/String';
-import CounterTwo from './components1/CounterTwo';
+// import ListItem from './components1/ListItem';
+// import Link from './components1/Link';
+// import Loading from './components1/Loading';
+// import Parent from './components1/Parent';
+// import Counter from './components1/Counter';
+// import String from './components1/String';
+// import CounterTwo from './components1/CounterTwo';
 
-import Users from './components2/Users';
-import UsersContainer from './components2/UsersContainer';
-import Tasks from './components2/Tasks';
-import Data from './components2/Data';
-import Input from './components2/Input';
-import Select from './components2/Select';
-import Page from './components2/Page';
+// import Users from './components2/Users';
+// import UsersContainer from './components2/UsersContainer';
+// import Tasks from './components2/Tasks';
+// import Data from './components2/Data';
+// import Input from './components2/Input';
+// import Select from './components2/Select';
+// import Page from './components2/Page';
+import ListContainter from './components2/ListContainer';
 
 function App() {
   return (
@@ -49,14 +50,14 @@ function App() {
       <String />
       <CounterTwo /> */}
 
-      <UsersContainer />
+      {/* <UsersContainer /> */}
       {/* <Tasks /> */}
-      <Data />
+      {/* <Data />
       <Input />
       <Select />
 
-      <Page />
-
+      <Page /> */}
+      <ListContainter />
     </div>
   );
 }
