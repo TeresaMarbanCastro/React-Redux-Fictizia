@@ -7,6 +7,7 @@ import React from 'react';
 // import Text from './components1/Text';
 // import List from './components1/List';
 import './App.css';
+// import ColourContainer from './components3/ColourContainer';
 // import ListItem from './components1/ListItem';
 // import Link from './components1/Link';
 // import Loading from './components1/Loading';
@@ -22,7 +23,11 @@ import './App.css';
 // import Input from './components2/Input';
 // import Select from './components2/Select';
 // import Page from './components2/Page';
-import ListContainter from './components2/ListContainer';
+// import ListContainter from './components2/ListContainer';
+
+// import SelectContainer from './components3/SelectContainer';
+// import Form from './components3/Form';
+import ShoppingCart from './components3/ShoppingCart';
 
 function App() {
   return (
@@ -57,7 +62,11 @@ function App() {
       <Select />
 
       <Page /> */}
-      <ListContainter />
+      {/* <ListContainter /> */}
+      {/* <SelectContainer /> */}
+      {/* <Form /> */}
+      {/* <ColourContainer /> */}
+      <ShoppingCart />
     </div>
   );
 }
