@@ -27,7 +27,12 @@ import './App.css';
 
 // import SelectContainer from './components3/SelectContainer';
 // import Form from './components3/Form';
-import ShoppingCart from './components3/ShoppingCart';
+// import ShoppingCart from './components3/ShoppingCart';
+// import ReactContext from './components4/ReactContext';
+// import ErrorHandler from './components4/ErrorHandler';
+import HOC from './components4/HOC';
+import Form from './components4/Form';
+
 
 function App() {
   return (
@@ -66,7 +71,11 @@ function App() {
       {/* <SelectContainer /> */}
       {/* <Form /> */}
       {/* <ColourContainer /> */}
-      <ShoppingCart />
+      {/* <ShoppingCart /> */}
+      {/* <ReactContext /> */}
+      {/* <ErrorHandler /> */}
+      {/* <HOC /> */}
+      <Form />
     </div>
   );
 }
