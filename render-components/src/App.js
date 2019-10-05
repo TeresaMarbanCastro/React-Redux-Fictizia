@@ -32,7 +32,45 @@ import './App.css';
 // import ErrorHandler from './components4/ErrorHandler';
 import HOC from './components4/HOC';
 import Form from './components4/Form';
+import styled, { css } from 'styled-components';
+import colors from './components4/colors';
+import ShowServerConfig from './components4/ShowServerConfig';
+import PropTypes from 'prop-types';
 
+
+
+
+const Button = styled.button `
+  padding:10px;
+  boder: 2px solid black;
+  background-color: ${colors.primaryColour};
+  color: ${props => props.language === 'es' ? 'purple' : 'yellow'};
+  margin-top: 60px;
+
+
+  ${props => props.success && css `
+    background-color: green;
+    color: white;
+  `}
+
+  ${props => props.warning && css `
+  background-color: red;
+  color: white;
+`}
+`
+// const Greet = props =>
+//   <div>jdjd {props.name}</div>
+
+// Greet.PropTypes = {
+//   name: PropTypes.string
+// }
+
+
+// const config = {
+//   minConnections: true,
+//   maxConnections: false,
+//   restartAlways: true
+// }
 
 function App() {
   return (
@@ -75,7 +113,12 @@ function App() {
       {/* <ReactContext /> */}
       {/* <ErrorHandler /> */}
       {/* <HOC /> */}
-      <Form />
+      {/* <Form /> */}
+      <Button>hkashdfhkdashk</Button>
+      <Button language="es" success>Success</Button>
+      <Button warning>Warning</Button>
+      {/* <ShowServerConfig config/> */}
+      {/* <Greet /> */}
     </div>
   );
 }
