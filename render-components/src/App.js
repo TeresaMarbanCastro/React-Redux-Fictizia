@@ -36,7 +36,7 @@ import styled, { css } from 'styled-components';
 import colors from './components4/colors';
 import ShowServerConfig from './components4/ShowServerConfig';
 import PropTypes from 'prop-types';
-
+import Hooks from './components5/Hooks';
 
 
 
@@ -114,11 +114,13 @@ function App() {
       {/* <ErrorHandler /> */}
       {/* <HOC /> */}
       {/* <Form /> */}
-      <Button>hkashdfhkdashk</Button>
-      <Button language="es" success>Success</Button>
-      <Button warning>Warning</Button>
+      {/* <Button>hkashdfhkdashk</Button> */}
+      {/* <Button language="es" success>Success</Button> */}
+      {/* <Button warning>Warning</Button> */}
       {/* <ShowServerConfig config/> */}
       {/* <Greet /> */}
+
+      <Hooks/>
     </div>
   );
 }
